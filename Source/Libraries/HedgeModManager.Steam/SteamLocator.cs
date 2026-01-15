@@ -38,6 +38,7 @@ public class SteamLocator : IGameLocator
         var pathList = new[]
         {
             Path.Combine(".steam", "steam"),
+            Path.Combine(".steam", "debian-installation"),
             Path.Combine(".local", "share", "Steam"),
             Path.Combine(".var", "app", "com.valvesoftware.Steam", ".steam", "steam"),
             Path.Combine("snap", "steam", "common", ".steam", "steam"),
